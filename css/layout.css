@@ -6,14 +6,43 @@
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: DodgerBlue;
+    flex-direction: row;
+    background-color: rgb(255, 0, 0);
   }
   
-  .flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
+  .flex-containt {
+    background-color: #7a4747;
+    width: 250px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
+  .flex-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: rgb(8, 86, 255);
+  }
+  .flex-itme {
+    background-color: #fbff00;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .thumbnail-grid figure.i2 {
+    background: url(https://www.netflix.com/watch/70208599?trackId=13752289&tctx=0%2C3%2C93ee49ca3e02e680028e9ef4485065b579eb1102%3A9796d426c5ac3fe725098629246fd2a43a31078e) no-repeat center;
+  }
+  .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+#Library {
+  background-image: url('https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Deadpool_2.jpg/250px-Deadpool_2.jpg');
+  height: 70px;
+  width: 120px;
+}
+
+#Library:hover {
+  background-image: url('https://cdn.drawception.com/images/panels/2015/8-28/YAWRE5RhkH-4.png');
+}

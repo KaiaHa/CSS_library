@@ -1,16 +1,22 @@
-.Primary{
+.primary{
 color: #0088ce;
 }
 .accent{
  color: #44ae30;   
 }
-.Success-color { color: #00FF00;
+.success-color { color: #00FF00;
 }
-.Warning-color { color: #FF4500;
+.warning-color { color: #FF4500;
 }
-.Danger-color { color: #FF0000;
+.danger-color { color: #FF0000;
 }
-.Info-color { color: #30d3df;
+.info-color { color: #30d3df;
 }
 .bg-primary{ background-color: #000000;
+}
+#headlinershadow {
+    text-align: center;
+    text-shadow: 2px 2px rgb(66, 48, 126);
+    font-family: Helvetica;
+    font-size: 100px
 }
