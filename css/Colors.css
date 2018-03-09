@@ -12,11 +12,44 @@ color: #0088ce;
 }
 .info-color { color: #30d3df;
 }
-.bg-primary{ background-color: #000000;
+.bg-primary{ background-color: #00000000;
 }
 #headlinershadow {
     text-align: center;
     text-shadow: 2px 2px rgb(66, 48, 126);
     font-family: Helvetica;
     font-size: 100px
+}
+.color-primary-dark{
+    color: #0089ceb9
+}
+.color-primary-light{
+    color: #4cb5e9b9
+}
+.color-background-main{
+    background-color: indianred
+}
+.color-background-secondary{
+    background-color: indianred
+}
+.color-primary-bg{
+    background-color: hotpink
+}
+
+.box-150-px{
+    height: 150px;
+    width: 150px;
+    border: solid 1px black;
+    text-align: center;
+    margin: 25px;
+}
+.box-50-px{
+    height: 50px;
+    width: 50px;
+    border: solid 2px rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+}
+.margin-25{
+    margin: 25px 10px 2px 100px;
 }
