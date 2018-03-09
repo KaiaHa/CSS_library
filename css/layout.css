@@ -12,7 +12,6 @@
   
   .flex-containt {
     background-color: #7a4747;
-    width: 250px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -26,23 +25,35 @@
   }
   .flex-itme {
     background-color: #fbff00;
-    width: 250px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
     font-size: 30px;
+  }
+  .flex-container-space {
+    background-color: #7a4747;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 75px;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-justify-test{
+    justify-content: center;
   }
   .thumbnail-grid figure.i2 {
     background: url(https://www.netflix.com/watch/70208599?trackId=13752289&tctx=0%2C3%2C93ee49ca3e02e680028e9ef4485065b579eb1102%3A9796d426c5ac3fe725098629246fd2a43a31078e) no-repeat center;
   }
-  .grow { transition: all .2s ease-in-out; }
+  .grow { transition: all .1s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
-#Library {
+#library {
   background-image: url('https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Deadpool_2.jpg/250px-Deadpool_2.jpg');
-  height: 70px;
-  width: 120px;
+width: 250px;
+height: 370px;
+transition: ease-in 0.3s
 }
-
-#Library:hover {
-  background-image: url('https://cdn.drawception.com/images/panels/2015/8-28/YAWRE5RhkH-4.png');
+#library:hover {
+  background-image: url('https://superheroscifi.files.wordpress.com/2015/04/deadpool_logo.jpg');
+  image-orientation: flip;
 }
